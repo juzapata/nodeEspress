@@ -1,8 +1,8 @@
 extends layout
 
 block content
-  h1= title
+  h1= "Julia's first Node/Espress web application"
   p Welcome to #{title}
   form(action="/", method="POST")
-     input(type="email", placeholder="Enter your email address")
+     input(name="lead_email", type="lead_email", placeholder="Enter your email address")
      button(tye="submit") Submit
